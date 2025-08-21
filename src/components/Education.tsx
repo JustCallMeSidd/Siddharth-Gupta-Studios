@@ -12,9 +12,10 @@ export default function Education() {
         </div>
         <div className="ml-9">
           <p className="text-lg text-gray-700">B.Tech in Computer Science and Engineering</p>
-          <p className="text-gray-600">Specialization in AI & ML</p>
-          <p className="text-gray-600">Sep 2022 - Sep 2026</p>
-          <p className="text-gray-600">Greater Noida, UP</p>
+          <p className="text-gray-600">Specialization: Artificial Intelligence & Machine Learning</p>
+          <p className="text-gray-600">GPA: 9.07 / 10</p>
+          <p className="text-gray-600">Sep 2022 – Sep 2026</p>
+          <p className="text-gray-600">Greater Noida, Uttar Pradesh</p>
         </div>
       </div>
     </section>
