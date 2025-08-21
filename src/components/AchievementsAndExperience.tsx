@@ -19,6 +19,33 @@ const achievements = [
       "Completed advanced training in Deep Learning with Python",
       "Mastered neural network architectures and implementation"
     ]
+  },
+  {
+    title: "Capstone Project – TumorX Pro: Brain Tumor Detection",
+    period: "2025",
+    points: [
+      "Built a professional-grade app integrating Classification (94% accuracy) and Segmentation models (U-Net)",
+      "Implemented interactive UI for uploading MRI scans with tumor heatmap overlay",
+      "Optimized inference for real-time medical image analysis"
+    ]
+  },
+  {
+    title: "Research Paper – IEEE Conference Presentation",
+    period: "Aug 2025",
+    points: [
+      "Presented paper titled 'Integrating Deep Learning Concepts with Blood Diagnosis' at GL Bajaj IEEE Conference",
+      "Achieved 92.37% accuracy using a hybrid CNN model (Xception + InceptionResNetV2)",
+      "Pioneered transforming blood test data into image-like tensors for classification"
+    ]
+  },
+  {
+    title: "NGO Connect 360 – Mobile App Project",
+    period: "2024",
+    points: [
+      "Designed and developed an app to connect NGOs with local communities",
+      "Implemented features for event discovery, participation, and community engagement",
+      "Led QA and Security Testing to ensure scalability and safety"
+    ]
   }
 ];
 
@@ -28,7 +55,10 @@ export default function AchievementsAndExperience() {
       <h2 className="text-3xl font-bold mb-6">Achievements & Experience</h2>
       <div className="space-y-6">
         {achievements.map((achievement, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <div 
+            key={index} 
+            className="bg-white rounded-lg shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+          >
             <div className="flex items-start justify-between">
               <div className="flex items-start flex-grow">
                 <Award className="w-6 h-6 text-indigo-600 mt-1 mr-3 flex-shrink-0" />
