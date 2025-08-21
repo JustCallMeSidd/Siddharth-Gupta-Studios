@@ -3,6 +3,17 @@ import { Calendar, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "Tumor X",
+    period: "Feb 2025 - Mar 2025",
+    githubLink: "https://github.com/JustCallMeSidd/TumorX",
+    points: [
+      "Built a dual-model system using EfficientNetB3 (classification) and U-Net (segmentation), achieving 95% accuracy on 3,000+ MRI brain images",
+      "Performed preprocessing and augmentation on MRI scans to improve model robustness and segmentation accuracy",
+      "Developed a Streamlit web app that allows users to upload MRI scans, highlight the tumor region, classify tumor type, and display confidence scores",
+      "Integrated a PDF report generator including MRI, tumor overlay, classification results, and model confidence to enhance clinical usability"
+    ]
+  },
+  {
     title: "Canvas AI",
     period: "May 2024 - Aug 2024",
     githubLink: "https://github.com/JustCallMeSidd/Canvas-Ai",
